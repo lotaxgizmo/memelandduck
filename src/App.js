@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from  './components/Hero'
+import Emojiline from './components/Emojiline';
+import Biggest from './components/Biggest'
+import About from './components/About'
+import Just from './components/Just'
+import Roadmap from './components/Roadmap'
+import Tokenomics from './components/Tokenomics'
+import Team from './components/Team'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero/>
+     <Emojiline/>
+     <Biggest/> 
+     <About/> 
+     <Just/>
+     <Roadmap/>
+     <Tokenomics/>
+     <Team/>
     </div>
   );
 }

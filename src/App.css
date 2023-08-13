@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+  font-family: 'GulfsDisplay'; /* Choose a name for the font */
+  src: url('./assets/GulfsDisplay-Normal.ttf') format('truetype'); /* Replace with the actual path to your font */
+  /* You can also include other font formats for better cross-browser compatibility */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  font-family: 'GulfsDisplay', sans-serif; /* Use the font for the body text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.normtext {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
+@keyframes slowRotation {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+
+.slow-rotate {
+  animation: slowRotation 10s linear infinite; /* Adjust the duration to control rotation speed */
 }
