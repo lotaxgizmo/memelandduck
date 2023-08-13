@@ -24,12 +24,12 @@ function Header() {
 <a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="#">Home</a>
 <a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="#about">About</a>
 <a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="#roadmap">Roadmap</a>
-<a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="#telegram">Telegram</a>
-<a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="#twitter">Twitter</a>
-<a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="#">Need a Website?</a>
+<a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="https://t.me/MEMESViportal">Telegram</a>
+<a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="https://twitter.com/ElonXParodyX">Twitter</a>
+<a className='xl:px-5 px-2 xl:text-lg lg:text-md text-sm  transition-all hover:text-white' href="https://twitter.com/lotaxgizmo">Need a Website?</a>
 </div>
 
-        <a href="#" className='w-40 '>
+        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x9b538e056a22cd46ecfc5b7433d17fb92d891b98" className='w-40 '>
         <img src={Btn} alt="" className='w-40 transition-all hover:w-36' />
         </a>
 

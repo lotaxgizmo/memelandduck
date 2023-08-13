@@ -19,7 +19,7 @@ function Emojiline() {
     ">
     <img src={Buymemes} alt="" className='w-64 hover:w-56 active:w-52 transition-all duration-75 lg:hidden'/>
 
-<a href="#">
+<a href="https://www.dextools.io/app/en/ether/pair-explorer/0x9b538e056a22cd46ecfc5b7433d17fb92d891b98">
 <img src={Bigb} alt="" className='w-auto hover:w-72 active:w-52 animate transition-all duration-75 hidden lg:block'/>
 
 </a>

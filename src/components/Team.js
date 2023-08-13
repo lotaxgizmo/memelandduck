@@ -22,7 +22,7 @@ function Team() {
       <div className="flex flex-col lg:flex-row justify-center align-middle items-center  ">
         <img src={Dev1} alt="" className='transition-all hover:w-72  w-80 m-2 mt-10' />
         <img src={Dev2} alt="" className='transition-all hover:w-72  w-80 m-2 mt-10' />
-        <a href="">
+        <a href="https://twitter.com/lotaxgizmo">
           <img src={Dev3} alt="" className='transition-all hover:w-72  w-80 m-2 mt-10' />
         </a>
       </div>
@@ -30,23 +30,23 @@ function Team() {
     
     
       <div className='lg:hidden'>
-        <a href="#">
+        <a href="https://t.me/MEMESViportal">
         <img src={Tell} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
       </a>
         
-        <a href="#">
+        <a href="https://twitter.com/ElonXParodyX">
           <img src={Twit} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
 
         </a>
       </div>
 
       <div className="but2 hidden lg:flex items-center">
-        <a href="#">
+        <a href="https://t.me/MEMESViportal">
           <img src={Telbig} alt="" className='mb-20 w-96 transition-all hover:w-80 m-4' />
         </a>
         
         
-        <a href="#">
+        <a href="https://twitter.com/ElonXParodyX">
           <img src={Twitbig} alt="" className='mb-20 w-96 transition-all hover:w-80 m-4' />
 
         </a>

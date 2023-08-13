@@ -8,7 +8,7 @@ import Marquee from 'react-fast-marquee'
 function About() {
   return (
     <>
-      <div className='flex flex-col align-middle justify-center items-center'>
+      <div id='about' className='flex flex-col align-middle justify-center items-center'>
         <img src={Aboutmob} alt="" className='m-6 ml-[-20px]   lg:hidden' />
         <img src={Aboutbig} alt="" className='m-6 hidden lg:block w-[1000px]' />
         <div className="longassmobilebox block lg:hidden normtext border-2 border-black rounded-3xl p-5 mx-2 mb-16 shadow-lg">

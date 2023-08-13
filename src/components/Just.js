@@ -20,28 +20,28 @@ function Just() {
       <img src={Joinus} alt="" className='mb-20 lg:hidden' />
       <img src={Joinbig} alt="" className='mb-20 hidden lg:block w-[90%]' />
       <div className="but1 flex flex-col justify-center items-center lg:hidden">
-<a href="#">
-<img src={Tell} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
-  </a>    
-<a href="#">
-<img src={Buy} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
+        <a href="https://t.me/MEMESViportal">
+          <img src={Tell} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
+        </a>
+        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x9b538e056a22cd46ecfc5b7433d17fb92d891b98">
+          <img src={Buy} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
 
-</a>
-<a href="#">
-<img src={Twit} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
+        </a>
+        <a href="https://twitter.com/ElonXParodyX">
+          <img src={Twit} alt="" className='mb-20 w-64 hover:w-56 active:w-52 transition-all duration-75' />
 
-</a>
+        </a>
       </div>
 
       <div className="but2 hidden lg:flex items-center">
-        <a href="#">
+        <a href="https://t.me/MEMESViportal">
           <img src={Telbig} alt="" className='mb-20 w-96 transition-all hover:w-80 m-4' />
         </a>
-        <a href="#">
+        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x9b538e056a22cd46ecfc5b7433d17fb92d891b98">
           <img src={Buybig} alt="" className='mb-20 w-96 transition-all hover:w-80 mt-4' />
 
         </a>
-        <a href="#">
+        <a href="https://twitter.com/ElonXParodyX">
           <img src={Twitbig} alt="" className='mb-20 w-96 transition-all hover:w-80 m-4' />
 
         </a>

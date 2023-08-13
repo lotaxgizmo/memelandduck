@@ -11,7 +11,7 @@ import P33 from '../assets/p33.png'
 function Roadmap() {
   return (
     <>
-<div className="alll flex flex-col justify-center items-center">
+<div id='roadmap' className="alll flex flex-col justify-center items-center">
 <img src={Rmap} alt=""  className=' w-80 m-2 mt-10 lg:hidden'/>
 <img src={Rmapbig} alt=""  className=' w-[1000px] m-2 mt-10 hidden lg:block'/>
 <div className="phase flex flex-col justify-center items-center">
