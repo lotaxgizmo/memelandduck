@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './components/Header'
 import Hero from  './components/Hero'
 import Emojiline from './components/Emojiline';
 import Biggest from './components/Biggest'
@@ -12,6 +13,7 @@ import Team from './components/Team'
 function App() {
   return (
     <div className="App">
+      <Header/> 
       <Hero/>
      <Emojiline/>
      <Biggest/> 
