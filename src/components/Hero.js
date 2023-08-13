@@ -11,9 +11,9 @@ import Rounduck from '../assets/rounduck.png'
 
 function Hero() {
   return (
-    <div className='flex flex-col justify-center items-center bg-[#FFEDCB] px-2 relative'>
+    <div className='flex flex-col justify-center items-center bg-[#FFEDCB] px-2 relative overflow-hidden'>
 
-<a href="#" className='w-72s h-20 flex justdify-center'>
+<a href="https://twitter.com/lotaxgizmo" className='w-72s h-20 flex justdify-center'>
 <img src={Webdone} alt="" className='w-72 mb-4 mdt-20 transition-all hover:w-60' />
 
 </a>
@@ -33,7 +33,7 @@ function Hero() {
       <img src={Bigduck} alt="" className='w-auto mb-4 lg:hidden' />
       <div className='relative mb-10 hidden lg:block'>
         <img src={Biggduck} alt="" className='w-auto mb-4' />
-        <img src={Rounduck} alt="" className='w-60 mb-4 absolute bottom-[-50px] right-0 animate-bounce' />
+        <img src={Rounduck} alt="" className='w-60 mb-4 absolute bottom-[-50px] right-0 animate-bounce hover:animate-ping' />
       </div>
 
     </div>

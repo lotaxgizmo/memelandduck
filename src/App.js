@@ -14,14 +14,14 @@ function App() {
   return (
     <div className="App">
       <Header/> 
-      {/* <Hero/>
+      <Hero/>
      <Emojiline/>
      <Biggest/> 
      <About/> 
      <Just/>
      <Roadmap/>
      <Tokenomics/>
-     <Team/> */}
+     <Team/>
     </div>
   );
 }
